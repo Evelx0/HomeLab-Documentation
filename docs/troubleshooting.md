@@ -37,3 +37,56 @@ Restarted container.<br>
 Verified service availability.
 
 ---
+
+## DNS resolution failure
+
+**Problem:**<br>
+Clients unable to access service via hostname.
+
+**Cause:**<br>
+Incorrect DNS record.
+
+**Resolution:**<br>
+Verified A record<br>
+Checked propagation<br>
+Flushed DNS cache<br>
+Tested resolution
+
+**Outcome:**<br>
+Service accessible.
+
+---
+
+## Docker container repeatedly crashing
+
+*Problem:**<br>
+Service continuously restarting.
+
+**Cause:**<br>
+Incorrect environment variable.
+
+**Resolution:**<br>
+Reviewed container logs<br>
+Corrected configuration<br>
+Redeployed service
+
+**Outcome:**<br>
+Stable operation restored.
+
+---
+
+## WireGuard VPN connectivity issue
+
+**Problem:**<br>
+Unable to access internal services remotely.
+
+**Cause:**<br>
+Incorrect peer configuration.
+
+**Resolution:**<br>
+Reviewed WireGuard configuration<br>
+Verified routes<br>
+Tested DNS resolution through VPN
+
+**Outcome:**<br>
+Remote access restored.
