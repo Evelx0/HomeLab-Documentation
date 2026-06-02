@@ -2,25 +2,23 @@
 
 ## Documentation matters more than memory.<br>
 I've learned that documenting changes, ports, DNS records and deployment configurations saves significant troubleshooting time later.
-
+<br><br>
 ## Logs usually tell you what's wrong.<br>
 Most problems were solved by reviewing:<br>
-<br>
 - Docker logs
 - Nginx logs
 - Application logs
-
 before making configuration changes.
-
+<br><br>
 ## DNS causes more issues than expected.<br>
 Many accessibility issues were ultimately related to DNS records, propagation delays or caching.
-
+<br><br>
 ## Security should be considered from the beginning.
 Reducing exposed services and using VPN access significantly improves security compared with exposing everything publicly.
-
+<br><br>
 ## AI accelerates implementation but not understanding.
 AI tools can generate configurations and code quickly, but successful deployment still requires validation, testing and troubleshooting by the operator.
-
+<br><br>
 ## Docker Networking
 
 Initially I had some difficulties understanding container networking and service communication.
@@ -31,7 +29,7 @@ Through troubleshooting I learned and gained exposure to:
 - Port mappings
 - Service discovery
 - Container isolation
-
+<br><br>
 ## SSL Certificates
 
 Improved understanding on the relationship between:
