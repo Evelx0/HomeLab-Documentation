@@ -27,7 +27,7 @@ Secure credential management, self hosted.
 - Container connectivity
 
 **Network Flow**<br>
----
+```
 User
 ↓
 deSEC DNS
@@ -37,4 +37,4 @@ Router
 Nginx Proxy Manager
 ↓
 Vaultwarden
----
+```
