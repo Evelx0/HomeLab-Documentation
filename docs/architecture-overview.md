@@ -24,10 +24,11 @@ Raspberry Pi 5 (Debian 12)
 ├── Pingvin Share<br>
 └── Additional utility services 
 
-## External Access Flow
+## Inbound Traffic Flow
 
 Only Vaultwarden is intentionally exposed to the internet.
 
+```
 Internet User
 ↓
 deSEC DNS
@@ -39,8 +40,25 @@ Home Router Port Forward
 Nginx Proxy Manager
 ↓
 Vaultwarden Container
+```
 
 Nginx Proxy Manager handles SSL certificate management and forwards traffic to the appropriate backend service.
+
+## Outbound Traffic Flow
+
+All devices connected to the home network run through AdGuard Home & NextDNS.
+
+```
+Laptop
+↓
+AdGuard Home
+↓
+NextDNS
+↓
+Google DNS Authority Chain
+↓
+IP Returned
+```
 
 ## Internal Service Access
 
