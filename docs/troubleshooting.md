@@ -2,27 +2,27 @@
 
 ## SSL Certificate Failure
 
-Issue:
+Issue:<br>
 Certificate failed to issue. (e.g when using certbot)
 
-Cause:
+Cause:<br>
 DNS record had not fully propagated.
 
-Resolution:
+Resolution:<br>
 Verified DNS configuration and waited for propagation before reissuing certificate.
 
-How to check and verify DNS has propogated:
+How to check and verify DNS has propogated:<br>
 Various console commmands if required but for simplicity and ease I used [WhatsMyDNS](https://whatsmydns.net/) & [DNSDumpster](https://dnsdumpster.com/)
 
 ---
 
 ## 502 Bad Gateway
 
-Issue:
+Issue:<br>
 Reverse proxy returned 502.
 
-Cause:
-Backend container stopped responding.
+Cause:<br>
+Backend container stopped responding.<br>
 SSH via Termius
 
 Resolution:
