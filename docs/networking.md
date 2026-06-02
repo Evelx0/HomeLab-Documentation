@@ -4,17 +4,33 @@
 
 Devices on the local network use AdGuard Home as their primary DNS server.
 
+**Outbound Traffic**<br>
+```
 Client Device<br>
-↓<br>
+↓
 AdGuard Home<br>
-↓<br>
+↓
 NextDNS<br>
-↓<br>
+↓
 Internet
+```
 
 AdGuard Home provides local DNS filtering, logging and custom DNS rules.
 
 NextDNS acts as the upstream resolver, providing additional filtering and threat protection.
+
+**Inbound Traffic**<br>
+```
+User
+↓
+deSEC DNS
+↓
+Router
+↓
+Nginx Proxy Manager
+↓
+Vaultwarden
+```
 
 ## Public DNS
 
