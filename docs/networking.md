@@ -6,11 +6,11 @@ Devices on the local network use AdGuard Home as their primary DNS server.
 
 **Outbound Traffic**<br>
 ```
-Client Device<br>
+Client Device
 ↓
-AdGuard Home<br>
+AdGuard Home
 ↓
-NextDNS<br>
+NextDNS
 ↓
 Internet
 ```
