@@ -9,7 +9,7 @@ The environment provides hands-on experience with Linux administration, containe
 ## Infrastructure Overview
 
 Raspberry Pi 5 (Debian 12)
-│
+
 ├── Docker & Docker Compose
 ├── Nginx Proxy Manager
 ├── Vaultwarden
@@ -22,7 +22,7 @@ Raspberry Pi 5 (Debian 12)
 ├── Dozzle
 ├── Linkwarden
 ├── Pingvin Share
-└── Additional utility services
+└── Additional utility services 
 
 ## External Access Flow
 
