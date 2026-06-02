@@ -23,7 +23,6 @@ Reverse proxy returned 502.
 
 **Cause:**<br>
 Backend container stopped responding.<br>
-SSH via Termius
 
 **Resolution:**
 Checked container status using Docker.<br>
