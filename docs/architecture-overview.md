@@ -1,10 +1,32 @@
 # Architecture Overview
 
-The Raspberry Pi acts as the central host for a collection of self-hosted services running within Docker containers.
+## Purpose
 
-Most services are accessible only from the local network. Vaultwarden is the only service intentionally exposed to the internet.
+This home lab is a self-hosted infrastructure environment running on a Raspberry Pi 5 using Debian Linux, Docker and Docker Compose.
+
+The environment provides hands-on experience with Linux administration, containerisation, networking, DNS management, reverse proxies, SSL certificates and security tooling.
+
+## Infrastructure Overview
+
+Raspberry Pi 5 (Debian 12)
+│
+├── Docker & Docker Compose
+├── Nginx Proxy Manager
+├── Vaultwarden
+├── AdGuard Home
+├── WireGuard
+├── CrowdSec
+├── Cowrie Honeypot
+├── Portainer
+├── Homepage
+├── Dozzle
+├── Linkwarden
+├── Pingvin Share
+└── Additional utility services
 
 ## External Access Flow
+
+Only Vaultwarden is intentionally exposed to the internet.
 
 Internet User
 ↓
@@ -18,12 +40,20 @@ Nginx Proxy Manager
 ↓
 Vaultwarden Container
 
-Nginx Proxy Manager handles SSL certificate management, HTTPS enforcement and routing requests to the appropriate backend service.
+Nginx Proxy Manager handles SSL certificate management and forwards traffic to the appropriate backend service.
 
-# Examples:
+## Internal Service Access
 
-vault.domain.com
+Most services are only accessible from the local network or through WireGuard VPN access.
 
-↓
+Examples include:
 
-Vaultwarden
+* Portainer
+* Homepage
+* AdGuard Home
+* CrowdSec
+* FileBrowser
+* Linkwarden
+* Pingvin Share
+
+This approach reduces attack surface by limiting unnecessary public exposure.
