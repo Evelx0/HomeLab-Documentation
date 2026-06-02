@@ -25,3 +25,16 @@ Secure credential management, self hosted.
 - SSL validation
 - DNS issues
 - Container connectivity
+
+**Network Flow**<br>
+---
+User
+↓
+deSEC DNS
+↓
+Router
+↓
+Nginx Proxy Manager
+↓
+Vaultwarden
+---
