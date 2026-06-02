@@ -24,7 +24,6 @@ Responsibilities include:
 
 * Domain management
 * DNS record management
-* Dynamic DNS updates
 * Public resolution for Vaultwarden
 
 ## Reverse Proxy
