@@ -59,6 +59,49 @@ WireGuard provides secure remote access to internal services.
 
 This allows administration of internal applications without exposing management interfaces directly to the internet.
 
+## deSEC DNS
+
+Used to manage public DNS records for externally accessible services.
+
+Responsibilities:
+
+- Public DNS management
+- Dynamic DNS updates
+- Domain resolution for Vaultwarden
+
+## AdGuard Home
+
+Configured as the primary DNS server for the local network.
+
+Responsibilities:
+
+- Network-wide ad blocking
+- DNS query logging
+- Custom DNS filtering rules
+- Local DNS management
+
+## NextDNS
+
+Configured as the upstream DNS resolver.
+
+Responsibilities:
+
+- Threat intelligence filtering
+- Malware domain blocking
+- Privacy-focused DNS resolution
+- Additional content filtering
+
+## Nginx Proxy Manager
+
+Provides reverse proxy functionality for externally accessible services.
+
+Responsibilities:
+
+- SSL certificate management
+- HTTPS enforcement
+- Request routing
+- Backend service protection
+
 ## Docker Networking
 
 Services are deployed using Docker Compose.
