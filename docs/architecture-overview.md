@@ -10,18 +10,18 @@ The environment provides hands-on experience with Linux administration, containe
 
 Raspberry Pi 5 (Debian 12)
 
-├── Docker & Docker Compose
-├── Nginx Proxy Manager
-├── Vaultwarden
-├── AdGuard Home
-├── WireGuard
-├── CrowdSec
-├── Cowrie Honeypot
-├── Portainer
-├── Homepage
-├── Dozzle
-├── Linkwarden
-├── Pingvin Share
+├── Docker & Docker Compose<br>
+├── Nginx Proxy Manager<br>
+├── Vaultwarden<br>
+├── AdGuard Home<br>
+├── WireGuard<br>
+├── CrowdSec<br>
+├── Cowrie Honeypot<br>
+├── Portainer<br>
+├── Homepage<br>
+├── Dozzle<br>
+├── Linkwarden<br>
+├── Pingvin Share<br>
 └── Additional utility services 
 
 ## External Access Flow
