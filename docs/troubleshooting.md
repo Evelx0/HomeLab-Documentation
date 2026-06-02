@@ -26,13 +26,13 @@ Backend container stopped responding.
 SSH via Termius
 
 Resolution:
-Checked container status using Docker.
+Checked container status using Docker.<br>
 ```docker ps -a | grep -v Exited | cut -c1-$COLUMNS```
 
-Reviewed logs.
+Reviewed logs.<br>
 ```docker logs --since=Xh <container id>```
 
-Restarted container.
+Restarted container.<br>
 ```docker start my_container```
 
 Verified service availability.
